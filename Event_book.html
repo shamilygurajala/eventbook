@@ -1,0 +1,842 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .bookusnow {
+            display: flex;
+
+        }
+
+        .seconde {
+            display: flex;
+
+        }
+
+        .h5 {
+            margin-left: 45px;
+        }
+
+        .banner_card {
+            position: relative;
+        }
+
+        .banner_card img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .banner_text {
+            position: absolute;
+            color: white;
+            top: 90px;
+            padding: 15px;
+
+        }
+
+        .banner_text h3 {
+            font-size: 45px;
+            /* text-transform: uppercase; */
+            font-weight: bold;
+            margin-bottom: 5px;
+            margin-left: 220px;
+            padding: 10px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .banner_text h5{
+            font-size: 13px;
+            margin-left:270px ;
+            margin-bottom:5px ;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-weight: normal;
+        }
+        .Recommended
+        {
+            display: flex;
+        }
+        .Recommended h5{
+            font-size: 20px;
+            margin-top: 150px;
+            margin-left:30px;
+
+        }
+        .img
+        {
+           width: 40%;
+           height: 50px;
+           margin-top: 200px;
+           margin-left: -250px;
+
+        }
+        .textt{
+           
+            position: absolute;
+            color: white;
+            top: 790px;
+            padding: 15px;
+            /* margin-left: ; */
+
+        }
+        .textt h4{
+            font-size: 13px;
+            margin-left:5px ;
+            margin-bottom:5px ;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-weight: normal;
+            /* margin-top: 600px; */
+
+        }
+        .textt h5{
+            font-size: 10px;
+            margin-left:5px;
+           
+            font-family: 'Times New Roman', Times, serif;
+            
+           
+            margin-top: -18px;
+            color: white;
+            font-weight: normal;
+
+     } 
+     .textt img{
+        width: 8px;
+        height:8px;
+        color: red;
+        margin-left: -7px;
+        margin-top:-8px;
+        margin-bottom: 5px;
+     }
+        
+    .textt h3{
+        font-size: 8px;
+        color:whitesmoke;
+        margin-left: 140px;
+        margin-top: -45px;
+        font-weight: normal;
+    }
+    .textt h6{
+        font-size: 8px;
+        color:whitesmoke;
+        margin-left:148px;
+        margin-top: -8px;
+        font-weight: normal;
+
+    }
+    .holi
+    {
+        width:55%;
+        /* max-height:1000px; */
+        margin-top: -395px;
+        margin-left:330px;
+        border-radius:5%;
+    }
+    .holitext h4{
+        font-size: 13px;
+        margin-left:15px;
+        margin-top: -45px;
+        color:whitesmoke;
+        font-weight: 10px;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: normal;
+    }
+    .holitext img{
+        width: 10px;
+        height:8px;
+        color: red;
+        margin-left: 8px;
+        margin-top:-25px;
+        margin-bottom:17px;
+
+    }
+    .holitext h5{
+        font-size: 10px;
+            margin-left:19px;
+           
+            font-family: 'Times New Roman', Times, serif;
+            
+           
+            margin-top: -30px;
+            color: whitesmoke;
+            font-weight: normal;
+            margin-bottom: 10px;
+    }
+    .holitext h3{
+        font-size: 9px;
+        color:whitesmoke;
+        margin-left: 140px;
+        margin-top: -50px;
+        font-weight: normal;
+        font-family: 'Times New Roman', Times, serif;
+
+    }
+    .holitext h6{
+        font-size: 9px;
+        color:whitesmoke;
+        margin-left:148px;
+        margin-top: -8px;
+        font-weight: normal;
+    }
+    .sun 
+    {
+        width:55%;
+        margin-top:-395px;
+        margin-left: 700px;
+        margin-left: 650px;
+    }
+    .suntext h4{
+        font-size: 13px;
+        margin-left:15px;
+        margin-top: -50px;
+        color:whitesmoke;
+        font-weight: 10px;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: normal;
+
+    }
+    .suntext img{
+        width: 10px;
+        height:8px;
+        color: red;
+        margin-left: 8px;
+        margin-top:-25px;
+        margin-bottom:17px;
+
+
+    }
+    .suntext h5{
+        font-size: 10px;
+            margin-left:19px;
+           
+            font-family: 'Times New Roman', Times, serif;
+            
+           
+            margin-top: -30px;
+            color: whitesmoke;
+            font-weight: normal;
+            margin-bottom: 10px;
+
+    }
+    .suntext h3{
+        font-size: 9px;
+        color:whitesmoke;
+        margin-left: 140px;
+        margin-top: -50px;
+        font-weight: normal;
+        font-family: 'Times New Roman', Times, serif;
+
+    }
+    .suntext h6{
+        font-size: 9px;
+        color:whitesmoke;
+        margin-left:148px;
+        margin-top: -8px;
+        font-weight: normal;
+
+    }
+   .seeall  h5
+   {
+    /* margin-left:550px; */
+    margin:0,0,0,400px;
+    color: whitesmoke;
+   }
+   .seeall2
+   {
+    color: whitesmoke;
+   }
+   .upcoming
+   {
+    margin-top: 310px;
+    font-weight: normal;
+    margin-left: 40px;
+   }
+   .flipcard
+   {
+    background-color: transparent;
+  width: 300px;
+  height: 300px;
+  perspective: 1000px;
+  margin-left:60px;
+  /* display: flex; */
+   }
+   .flipcard-inner
+   {
+    position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  /* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); */
+   }
+   .flipcard:hover .flipcard-inner
+   {
+    transform: rotateY(180deg);
+   }
+   .flipcard-front,.flipcard-back
+   {
+    position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+   }
+   .flipcard-front{
+    background-color: #bbb;
+  color: black;
+
+   }
+   .flipcard-back
+   {
+    background-color: #2980b9;
+  color:white;
+  transform: rotateY(180deg);
+
+   }
+   .main2
+   {
+    display: flex;
+    margin-top: 40px;
+   }
+
+
+
+
+   /* seconde session */
+   .flipcard-back1 .flipcard1:hover{
+    margin-left:20px;
+    margin-top:40px;
+   }
+   .flipcard1
+   {
+    background-color: transparent;
+  width: 300px;
+  height: 300px;
+  perspective: 1000px;
+  margin-left:60px;
+   }
+   .flipcard-inner1
+   {
+    position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  /* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); */
+   }
+   .flipcard1:hover .flipcard-inner1
+   {
+    transform: rotateY(180deg);
+   }
+   .flipcard-front1,.flipcard-back1
+   {
+    position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+   }
+   .flipcard-front1{
+    background-color: #bbb;
+  color: black;
+
+   }
+   .flipcard-back1
+   {
+    background-color: #2980b9;
+  color:white;
+  transform: rotateY(180deg);
+
+   }
+
+   /* third one */
+   .seconehor
+   {
+    display: flex;
+   }
+   .flipcard-back1 .flipcard1:hover{
+    margin-left:20px;
+    margin-top:40px;
+   }
+   .flipcard2
+   {
+    background-color: transparent;
+  width: 300px;
+  height: 300px;
+  perspective: 1000px;
+  margin-left:60px;
+   }
+   .flipcard-inner2
+   {
+    position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  /* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); */
+   }
+   .flipcard2:hover .flipcard-inner2
+   {
+    transform: rotateY(180deg);
+   }
+   .flipcard-front2,.flipcard-back2
+   {
+    position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+   }
+   .flipcard-front2{
+    background-color: #bbb;
+  color: black;
+
+   }
+   .flipcard-back2
+   {
+    background-color: #2980b9;
+  color:white;
+  transform: rotateY(180deg);
+
+   }
+
+   /* fourth */
+
+   .flipcard3
+   {
+    background-color: transparent;
+  width: 300px;
+  height: 300px;
+  perspective: 1000px;
+  margin-left:60px;
+  /* display: flex; */
+   }
+   .flipcard-inner3
+   {
+    position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  /* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); */
+   }
+   .flipcard3:hover .flipcard-inner3
+   {
+    transform: rotateY(180deg);
+   }
+   .flipcard-front3,.flipcard-back3
+   {
+    position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+   }
+   .flipcard-front3{
+    background-color: #bbb;
+  color: black;
+
+   }
+   .flipcard-back3
+   {
+    background-color: #2980b9;
+  color:white;
+  transform: rotateY(180deg);
+   }
+
+   /* 5th one  */
+
+
+   .flipcard4
+   {
+    background-color: transparent;
+  width: 250px;
+  height: 300px;
+  perspective: 1000px;
+  margin-left:60px;
+  /* display: flex; */
+   }
+   .flipcard-inner4
+   {
+    position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  /* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); */
+   }
+   .flipcard4:hover .flipcard-inner4
+   {
+    transform: rotateY(180deg);
+   }
+   .flipcard-front4,.flipcard-back4
+   {
+    position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+   }
+   .flipcard-front4{
+    background-color: #bbb;
+  color: black;
+
+   }
+   .flipcard-back4
+   {
+    background-color: #2980b9;
+  color:white;
+  transform: rotateY(180deg);
+   }
+
+   /* 6th photo */
+   .flipcard5
+   {
+    background-color: transparent;
+  width: 250px;
+  height: 300px;
+  perspective: 1000px;
+  margin-left:60px;
+  /* display: flex; */
+   }
+   .flipcard-inner5
+   {
+    position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  /* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); */
+   }
+   .flipcard5:hover .flipcard-inner5
+   {
+    transform: rotateY(180deg);
+   }
+   .flipcard-front5,.flipcard-back5
+   {
+    position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+   }
+   .flipcard-front5{
+    background-color: #bbb;
+  color: black;
+
+   }
+   .flipcard-back5
+   {
+    background-color: #2980b9;
+  color:white;
+  transform: rotateY(180deg);
+   }
+
+   /* 7th element */
+   .flipcard6
+   {
+    background-color: transparent;
+  width: 250px;
+  height: 300px;
+  perspective: 1000px;
+  margin-left:60px;
+  /* display: flex; */
+   }
+   .flipcard-inner6
+   {
+    position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  /* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); */
+   }
+   .flipcard6:hover .flipcard-inner6
+   {
+    transform: rotateY(180deg);
+   }
+   .flipcard-front6,.flipcard-back6
+   {
+    position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+   }
+   .flipcard-front6{
+    background-color: #bbb;
+  color: black;
+
+   }
+   .flipcard-back6
+   {
+    background-color: #2980b9;
+  color:white;
+  transform: rotateY(180deg);
+   }
+
+   /* 8 th element */
+   .flipcard7
+   {
+    background-color: transparent;
+  width: 250px;
+  height: 300px;
+  perspective: 1000px;
+  margin-left:60px;
+  /* display: flex; */
+   }
+   .flipcard-inner7
+   {
+    position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  /* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); */
+   }
+   .flipcard7:hover .flipcard-inner7
+   {
+    transform: rotateY(180deg);
+   }
+   .flipcard-front7,.flipcard-back7
+   {
+    position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+   }
+   .flipcard-front7{
+    background-color: #bbb;
+  color: black;
+
+   }
+   .flipcard-back7
+   {
+    background-color: #2980b9;
+  color:white;
+  transform: rotateY(180deg);
+   }
+   .loading
+   {
+    margin-left: 300px;
+    margin-top: 100px;
+   }
+
+   
+    
+    </style>
+    <!-- <link href="Events.css"> -->
+</head>
+
+<body>
+    <div class="bookusnow">
+        <h5 style="margin: 6px; color: red; font-weight: bold; margin-left: 50px;">BookUsNow</h5>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+        <select style="background-color: black; color: white; width: 100px; height: 25px; border-radius: 20%;">
+            <option>Categories</option>
+            <option>Recommended shows</option>
+            <option>upcoming events</option>
+        </select>&nbsp&nbsp&nbsp
+        <input id="search" type="text" placeholder="Search .." name="Search" style="width: 550px; height: 20px;">
+        <img for="search" src="Search.jpg" alt="serach image"
+            style="position: absolute; right: 290px; height: 3%; transform: translateY(-50%); margin-top: 10px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <span>&#129505</span><span>Favourites</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="button" value="Signup" style="width: 60px; height: 20px;">
+    </div>
+    <div class="seconde">
+        <h5 class="h5" id="location">Mumbai,india</h5>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <img src="location.png" alt="missing file"
+            style="position: absolute; left:35px;  height: 3%; transform: translateY(-50%); margin-top:30px ;">
+        <h5>Live shows</h5>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <h5>streams</h5>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <h5>Movies</h5>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <h5>Plays</h5>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <h5>Events</h5>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <h5>sports</h5>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <h5>Activities</h5>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    </div>
+    <div class="banner_card">
+        <img src="Backround.png.svg">
+        <div class="banner_text">
+            <h3> Discover Exciting Events Happening<br> Near You-Stay Tuned For Updates!</h3>
+            <h5>Dorem ipsum dolor sit amet,consecteture adipiscing elit, Nunc vulputate libero et velit interdum,<br>
+            ac aliquet odio mattis. class aptent  taciti sociosqu ad litora torquent per conubia nostra,per</h5>/
+            <div class="Recommended">
+                <h5>Recommended Shows &nbsp;&nbsp;-></h5>
+                <div class="img">
+                    <img  src="Rectangle 2.svg">
+                    <div class="textt">
+                        <h4>Make Agree</h4>
+                        <span><img src="location.png"> <h5>west Douglss</h5></span>
+                        <h3>March 23,2024</h3>
+                        <h6>snowy,26'c|42km</h6>
+                        
+                    </div>
+                    <div class="holi">
+                        <img src="holi.jpg" style="border-radius: 5%;">
+                        <div class="holitext">
+                            <h4>Make Agree</h4>
+                            <span><img src="location.png"></span><h5>west Douglss</h5>
+                            <h3>March 23,2024</h3>
+                            <h6>Snow,26'c|42km</h6>
+
+                        </div>
+                    </div>
+                    <div class="sun">
+                    <img  src="sun.jpg" style="border-radius: 5%;">
+                    <div class="suntext">
+                        <h4>Make Agree</h4>
+                        <span><img src="location.png"></span><h5>west Douglss</h5>
+                        <h3>March 23,2024</h3>
+                        <h6>snow,26'c|42km</h6>
+
+                    </div>
+                    
+                </div>
+                
+
+            </div>
+            <span><a href="Seeall.html"  class="seeall2"><h5 class="seeall">Seeall</h5></a></span>
+ 
+        </div>
+    </div>
+    <h1 class="upcoming">Upcoming Events... </h1> 
+    <div class="seconehor">
+        <div class="flipcard">
+            <div class="flipcard-inner">
+                <div class="flipcard-front">
+                    <img src="holihorizontal.jpg" style="width:300px" height="400px" class="march">
+                </div>
+                <div class="flipcard-back"> 
+                    <p>After Note Nearly</p>
+                    <span><img src="location1.png"   style="width: 10px; height: 10px;" class="loc"></span><h3>west Douglass</h3>
+                    <h4>snow,26'c|42km</h3>
+                </div>
+
+            </div>
+
+        </div>
+        <div class="flipcard1">
+            <div class="flipcard-inner1">
+                <div class="flipcard-front1">
+                    <img src="sunries.jpg" style="width:300px" height="400px" class="march">
+                </div>
+                <div class="flipcard-back1"> 
+                    <p>After Note Nearly</p>
+                    <span><img src="location1.png"   style="width: 10px; height: 10px;" class="loc"></span><h3>west Douglass</h3>
+                    <h4>snow,26'c|42km</h3>
+                </div>
+
+            </div>
+
+        </div>
+        <div class="flipcard2">
+            <div class="flipcard-inner2">
+                <div class="flipcard-front2">
+                    <img src="diwali.jpg" style="width:300px" height="400px" class="march">
+                </div>
+                <div class="flipcard-back2"> 
+                    <p>After Note Nearly</p>
+                    <span><img src="location1.png"   style="width: 10px; height: 10px;" class="loc"></span><h3>west Douglass</h3>
+                    <h4>snow,26'c|42km</h3>
+                </div>
+
+            </div>
+
+        </div>
+        <div class="flipcard3">
+            <div class="flipcard-inner3">
+                <div class="flipcard-front3">
+                    <img src="food.jpg" style="width:300px" height="400px" class="march">
+                </div>
+                <div class="flipcard-back3"> 
+                    <p>After Note Nearly</p>
+                    <span><img src="location1.png"   style="width: 10px; height: 10px;" class="loc"></span><h3>west Douglass</h3>
+                    <h4>snow,26'c|42km</h3>
+                </div>
+
+            </div>
+
+        </div>
+        
+        
+    </div>
+    <div class="main2">
+        <div class="flipcard4">
+            <div class="flipcard-inner4">
+                <div class="flipcard-front4">
+                    <img src="party.jpg" style="width:300px" height="400px" class="march">
+                </div>
+                <div class="flipcard-back4"> 
+                    <p>After Note Nearly</p>
+                    <span><img src="location1.png"   style="width: 10px; height: 10px;" class="loc"></span><h3>west Douglass</h3>
+                    <h4>snow,26'c|42km</h3>
+                </div>
+
+            </div>
+
+        </div>
+        <div class="flipcard5">
+            <div class="flipcard-inner5">
+                <div class="flipcard-front5">
+                    <img src="festival.jpg" style="width:300px" height="400px" class="march">
+                </div>
+                <div class="flipcard-back5"> 
+                    <p>After Note Nearly</p>
+                    <span><img src="location1.png"   style="width: 10px; height: 10px;" class="loc"></span><h3>west Douglass</h3>
+                    <h4>snow,26'c|42km</h3>
+                </div>
+
+            </div>
+
+        </div>
+        <div class="flipcard6">
+            <div class="flipcard-inner6">
+                <div class="flipcard-front6">
+                    <img src="ugadi.jpg" style="width:300px" height="400px" class="march">
+                </div>
+                <div class="flipcard-back6"> 
+                    <p>After Note Nearly</p>
+                    <span><img src="location1.png"   style="width: 10px; height: 10px;" class="loc"></span><h3>west Douglass</h3>
+                    <h4>snow,26'c|42km</h3>
+                </div>
+
+            </div>
+
+        </div>
+        <div class="flipcard7">
+            <div class="flipcard-inner7">
+                <div class="flipcard-front7">
+                    <img src="ram.jpg" style="width:300px" height="400px" class="march">
+                </div>
+                <div class="flipcard-back7"> 
+                    <p>After Note Nearly</p>
+                    <span><img src="location1.png"   style="width: 10px; height: 10px;" class="loc"></span><h3>west Douglass</h3>
+                    <h4>snow,26'c|42km</h3>
+                </div>
+
+            </div>
+
+        </div>
+        
+    </div>
+    <div>
+        <img src="loading-white.jpg" class="loading">
+    </div>
+   
+</body>
+
+</html>
